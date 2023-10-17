@@ -27,6 +27,10 @@ dependencies {
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
+	testImplementation("io.rest-assured:rest-assured:5.3.2")
+	testImplementation("io.rest-assured:spring-web-test-client:5.3.2")
+	testImplementation("io.kotest:kotest-assertions-core:5.7.2")
+	testImplementation("io.kotest:kotest-assertions-json-jvm:5.7.2")
 }
 
 tasks.withType<KotlinCompile> {
